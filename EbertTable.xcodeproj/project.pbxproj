@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8736C5261DE83C0B007105D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736C5251DE83C0B007105D5 /* AppDelegate.swift */; };
+		8736C5281DE83C0B007105D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736C5271DE83C0B007105D5 /* ViewController.swift */; };
+		8736C52B1DE83C0B007105D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8736C5291DE83C0B007105D5 /* Main.storyboard */; };
+		8736C52D1DE83C0B007105D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8736C52C1DE83C0B007105D5 /* Assets.xcassets */; };
+		8736C5301DE83C0B007105D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8736C52E1DE83C0B007105D5 /* LaunchScreen.storyboard */; };
+		8736C53B1DE83C0B007105D5 /* EbertTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736C53A1DE83C0B007105D5 /* EbertTableTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8736C5371DE83C0B007105D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8736C51A1DE83C0B007105D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8736C5211DE83C0B007105D5;
+			remoteInfo = EbertTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8736C5221DE83C0B007105D5 /* EbertTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbertTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8736C5251DE83C0B007105D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8736C5271DE83C0B007105D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8736C52A1DE83C0B007105D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8736C52C1DE83C0B007105D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8736C52F1DE83C0B007105D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8736C5311DE83C0B007105D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8736C5361DE83C0B007105D5 /* EbertTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbertTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8736C53A1DE83C0B007105D5 /* EbertTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbertTableTests.swift; sourceTree = "<group>"; };
+		8736C53C1DE83C0B007105D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8736C51F1DE83C0B007105D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8736C5331DE83C0B007105D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8736C5191DE83C0B007105D5 = {
+			isa = PBXGroup;
+			children = (
+				8736C5241DE83C0B007105D5 /* EbertTable */,
+				8736C5391DE83C0B007105D5 /* EbertTableTests */,
+				8736C5231DE83C0B007105D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8736C5231DE83C0B007105D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8736C5221DE83C0B007105D5 /* EbertTable.app */,
+				8736C5361DE83C0B007105D5 /* EbertTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8736C5241DE83C0B007105D5 /* EbertTable */ = {
+			isa = PBXGroup;
+			children = (
+				8736C5251DE83C0B007105D5 /* AppDelegate.swift */,
+				8736C5271DE83C0B007105D5 /* ViewController.swift */,
+				8736C5291DE83C0B007105D5 /* Main.storyboard */,
+				8736C52C1DE83C0B007105D5 /* Assets.xcassets */,
+				8736C52E1DE83C0B007105D5 /* LaunchScreen.storyboard */,
+				8736C5311DE83C0B007105D5 /* Info.plist */,
+			);
+			path = EbertTable;
+			sourceTree = "<group>";
+		};
+		8736C5391DE83C0B007105D5 /* EbertTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				8736C53A1DE83C0B007105D5 /* EbertTableTests.swift */,
+				8736C53C1DE83C0B007105D5 /* Info.plist */,
+			);
+			path = EbertTableTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8736C5211DE83C0B007105D5 /* EbertTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8736C53F1DE83C0B007105D5 /* Build configuration list for PBXNativeTarget "EbertTable" */;
+			buildPhases = (
+				8736C51E1DE83C0B007105D5 /* Sources */,
+				8736C51F1DE83C0B007105D5 /* Frameworks */,
+				8736C5201DE83C0B007105D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EbertTable;
+			productName = EbertTable;
+			productReference = 8736C5221DE83C0B007105D5 /* EbertTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8736C5351DE83C0B007105D5 /* EbertTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8736C5421DE83C0B007105D5 /* Build configuration list for PBXNativeTarget "EbertTableTests" */;
+			buildPhases = (
+				8736C5321DE83C0B007105D5 /* Sources */,
+				8736C5331DE83C0B007105D5 /* Frameworks */,
+				8736C5341DE83C0B007105D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8736C5381DE83C0B007105D5 /* PBXTargetDependency */,
+			);
+			name = EbertTableTests;
+			productName = EbertTableTests;
+			productReference = 8736C5361DE83C0B007105D5 /* EbertTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8736C51A1DE83C0B007105D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrij Trubchanin";
+				TargetAttributes = {
+					8736C5211DE83C0B007105D5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8736C5351DE83C0B007105D5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8736C5211DE83C0B007105D5;
+					};
+				};
+			};
+			buildConfigurationList = 8736C51D1DE83C0B007105D5 /* Build configuration list for PBXProject "EbertTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8736C5191DE83C0B007105D5;
+			productRefGroup = 8736C5231DE83C0B007105D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8736C5211DE83C0B007105D5 /* EbertTable */,
+				8736C5351DE83C0B007105D5 /* EbertTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8736C5201DE83C0B007105D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8736C5301DE83C0B007105D5 /* LaunchScreen.storyboard in Resources */,
+				8736C52D1DE83C0B007105D5 /* Assets.xcassets in Resources */,
+				8736C52B1DE83C0B007105D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8736C5341DE83C0B007105D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8736C51E1DE83C0B007105D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8736C5281DE83C0B007105D5 /* ViewController.swift in Sources */,
+				8736C5261DE83C0B007105D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8736C5321DE83C0B007105D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8736C53B1DE83C0B007105D5 /* EbertTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8736C5381DE83C0B007105D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8736C5211DE83C0B007105D5 /* EbertTable */;
+			targetProxy = 8736C5371DE83C0B007105D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8736C5291DE83C0B007105D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8736C52A1DE83C0B007105D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8736C52E1DE83C0B007105D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8736C52F1DE83C0B007105D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8736C53D1DE83C0B007105D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8736C53E1DE83C0B007105D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8736C5401DE83C0B007105D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EbertTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trand.EbertTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8736C5411DE83C0B007105D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EbertTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trand.EbertTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8736C5431DE83C0B007105D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EbertTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trand.EbertTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EbertTable.app/EbertTable";
+			};
+			name = Debug;
+		};
+		8736C5441DE83C0B007105D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EbertTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trand.EbertTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EbertTable.app/EbertTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8736C51D1DE83C0B007105D5 /* Build configuration list for PBXProject "EbertTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8736C53D1DE83C0B007105D5 /* Debug */,
+				8736C53E1DE83C0B007105D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8736C53F1DE83C0B007105D5 /* Build configuration list for PBXNativeTarget "EbertTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8736C5401DE83C0B007105D5 /* Debug */,
+				8736C5411DE83C0B007105D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8736C5421DE83C0B007105D5 /* Build configuration list for PBXNativeTarget "EbertTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8736C5431DE83C0B007105D5 /* Debug */,
+				8736C5441DE83C0B007105D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8736C51A1DE83C0B007105D5 /* Project object */;
+}
