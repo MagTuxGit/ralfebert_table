@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8736C5261DE83C0B007105D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736C5251DE83C0B007105D5 /* AppDelegate.swift */; };
-		8736C5281DE83C0B007105D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736C5271DE83C0B007105D5 /* ViewController.swift */; };
 		8736C52B1DE83C0B007105D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8736C5291DE83C0B007105D5 /* Main.storyboard */; };
 		8736C52D1DE83C0B007105D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8736C52C1DE83C0B007105D5 /* Assets.xcassets */; };
 		8736C5301DE83C0B007105D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8736C52E1DE83C0B007105D5 /* LaunchScreen.storyboard */; };
 		8736C53B1DE83C0B007105D5 /* EbertTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8736C53A1DE83C0B007105D5 /* EbertTableTests.swift */; };
+		87A595551DE8628100BAFF47 /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A595541DE8628100BAFF47 /* FruitsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		8736C5221DE83C0B007105D5 /* EbertTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbertTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8736C5251DE83C0B007105D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8736C5271DE83C0B007105D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8736C52A1DE83C0B007105D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8736C52C1DE83C0B007105D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8736C52F1DE83C0B007105D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		8736C5361DE83C0B007105D5 /* EbertTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbertTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8736C53A1DE83C0B007105D5 /* EbertTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbertTableTests.swift; sourceTree = "<group>"; };
 		8736C53C1DE83C0B007105D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A595541DE8628100BAFF47 /* FruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				8736C5251DE83C0B007105D5 /* AppDelegate.swift */,
-				8736C5271DE83C0B007105D5 /* ViewController.swift */,
 				8736C5291DE83C0B007105D5 /* Main.storyboard */,
+				87A595541DE8628100BAFF47 /* FruitsTableViewController.swift */,
 				8736C52C1DE83C0B007105D5 /* Assets.xcassets */,
 				8736C52E1DE83C0B007105D5 /* LaunchScreen.storyboard */,
 				8736C5311DE83C0B007105D5 /* Info.plist */,
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8736C5281DE83C0B007105D5 /* ViewController.swift in Sources */,
+				87A595551DE8628100BAFF47 /* FruitsTableViewController.swift in Sources */,
 				8736C5261DE83C0B007105D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +406,7 @@
 				8736C5411DE83C0B007105D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8736C5421DE83C0B007105D5 /* Build configuration list for PBXNativeTarget "EbertTableTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				8736C5441DE83C0B007105D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
