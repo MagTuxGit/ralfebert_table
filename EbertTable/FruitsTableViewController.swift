@@ -8,6 +8,11 @@
 
 import UIKit
 
+class FruitTableViewCell: UITableViewCell {
+    @IBOutlet weak var fruitLabel: UILabel!
+    @IBOutlet weak var fruitImageView: UIImageView!
+}
+
 class FruitsTableViewController: UITableViewController {
     
     var fruits = ["Apple", "Apricot", "Banana", "Blueberry", "Cantaloupe", "Cherry",
@@ -44,15 +49,18 @@ class FruitsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath) as! FruitTableViewCell
 
         // Configure the cell...
         //cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 
         let fruitName = fruits[indexPath.row]
-        cell.textLabel?.text = fruitName
-        cell.detailTextLabel?.text = "Delicious!"
-        cell.imageView?.image = UIImage(named: fruitName)
+        //cell.textLabel?.text = fruitName
+        //cell.detailTextLabel?.text = "Delicious!"
+        //cell.imageView?.image = UIImage(named: fruitName)
+        
+        cell.fruitLabel?.text = fruitName
+        cell.fruitImageView?.image = UIImage(named: fruitName)
         
         return cell
     }
