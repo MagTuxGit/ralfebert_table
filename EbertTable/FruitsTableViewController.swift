@@ -10,6 +10,12 @@ import UIKit
 
 class FruitsTableViewController: UITableViewController {
     
+    var fruits = ["Apple", "Apricot", "Banana", "Blueberry", "Cantaloupe", "Cherry",
+                  "Clementine", "Coconut", "Cranberry", "Fig", "Grape", "Grapefruit",
+                  "Kiwi fruit", "Lemon", "Lime", "Lychee", "Mandarine", "Mango",
+                  "Melon", "Nectarine", "Olive", "Orange", "Papaya", "Peach",
+                  "Pear", "Pineapple", "Raspberry", "Strawberry"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,29 +34,32 @@ class FruitsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // return the number of sections
-        return 3
+        // return the number of sections, 1 by default
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // return the number of rows
-        return 5
+        return fruits.count
     }
     
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
+        //cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 
+        let fruitName = fruits[indexPath.row]
+        cell.textLabel?.text = fruitName
+        cell.detailTextLabel?.text = "Delicious!"
+        cell.imageView?.image = UIImage(named: fruitName)
+        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Section \(section)"
+        return "Fruits"
     }
-    */
     
     /*
     // Override to support conditional editing of the table view.
